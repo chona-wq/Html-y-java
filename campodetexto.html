@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Validar campo</title>
+</head>
+<body>
+
+    <input type="text" id="campo">
+
+    <button onclick="validar()">Validar</button>
+
+    <script>
+        function validar() {
+            let texto = document.getElementById("campo").value;
+
+            if (texto === "") {
+                alert("El campo no puede estar vacío");
+            } else {
+                alert("Texto ingresado correctamente");
+            }
+        }
+    </script>
+
+</body>
+</html>
