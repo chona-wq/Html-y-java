@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Validar edad</title>
+</head>
+<body>
+
+<input type="number" id="edad">
+<button onclick="Validaredad()">Validar edad</button>
+
+<script>
+    function Validaredad() {    
+        let edad = document.getElementById("edad").value;
+        
+        if (edad >= 18) {
+  alert("Eres mayor de edad");
+} else {
+  alert("Eres menor de edad");
+}
+
+    }
+</script>
+
+</body>
+</html>
